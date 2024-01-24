@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kevin Robles">
+
+    <link rel="stylesheet" href="../../employee_app/styles/FoodifyStyles.css">
+
+    <title>Foodify Menu page</title>
+</head>
+
+
+<body>
+    <script type="module" src="../scripts/foodifyCart.js"></script>
+    <div> 
+        <img src="../resources/FoodifyPlacementLogo.png" alt="FoodifyLogo" style="float:left" width="15%" height="15%" id="home">
+        <p style="text-align:right">
+            <button id="logout">
+                Logout
+            </button>
+        </p>
+        <h2 style="text-align:center"> 
+            Cart 
+        </h2>
+    </div>
+
+    <div id="cart-table">
+        <table id="html-cart-table">
+            <tr>
+                <th>Menu Item</th>
+                <th>Item Quantity</th>
+                <th>Item Cost</th>
+            </tr>
+        </table>
+    </div>
+    <div id="totalp">
+    </div>
+    <div>
+        <button id="order_now">
+            Order now
+        </button>
+    </div>
+</body>
